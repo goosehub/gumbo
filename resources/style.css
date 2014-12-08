@@ -1,0 +1,185 @@
+/*	Global */
+body {
+	/*background-color: #000;*/
+    background: url('/gumbo/resources/images/background-bourbon.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+    color: #fff;
+    font-family: AveriaSerif-Regular;
+	text-shadow: 0.2em 0.2em 0.2em #000;
+	overflow-x: hidden;
+}
+
+
+/*	Include fonts*/
+@font-face {
+  font-family: "BebasNeue";
+  src: url(fonts/BebasNeue.otf) format("opentype");
+}
+ @font-face {
+  font-family: "CheesePizza";
+  src: url(fonts/CheesePizza.ttf) format("truetype");
+} 
+ @font-face {
+  font-family: "HelloGoodbye";
+  src: url(fonts/HelloGoodbye.otf) format("opentype");
+} 
+ @font-face {
+  font-family: "CuldeSac";
+  src: url(fonts/CulDeSac.ttf) format("truetype");
+} 
+ @font-face {
+  font-family: "OpenSans-Regular";
+  src: url(fonts/OpenSans-Regular.ttf) format("truetype");
+} 
+ @font-face {
+  font-family: "AveriaSerif-Regular";
+  src: url(fonts/AveriaSerif-Regular.ttf) format("truetype");
+} 
+ @font-face {
+  font-family: "AveriaSerif-Bold";
+  src: url(fonts/AveriaSerif-Bold.ttf) format("truetype");
+} 
+
+/*	Header */
+#logo {
+	opacity: 0.9;
+	width: 25%;
+	float: left;
+}
+#nav-wrap {
+	margin-top: 0.5em;
+}
+.nav-bar {
+	width: 75%;
+	opacity: 0.85;
+	text-align: center;
+	margin: 0 auto;
+	text-align: center;
+}
+#nav-bar-top .nav-btn {
+	width: 25%;
+}
+#nav-bar-btm .nav-btn {
+	width: 33.3%;
+}
+.nav-btn {
+	padding: 0.4em;
+	height: 2.2em;
+    background-color:rgba(140,0,255,0.8);
+	color: #ffd700;
+	border: 0.15em solid #000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.nav-btn:hover {
+    background-color:rgba(255,255,0,0.9);
+	color: #660066;
+	text-shadow: none;
+	font-family: CulDeSac;
+	letter-spacing: 0.1em;
+}
+.top-left:hover {
+	border-radius: 2em 0 0 0;
+}
+.top-right:hover {
+	border-radius: 0 2em 0 0;
+}
+.btm-right:hover {
+	border-radius: 0 0 2em 0;
+}
+.btm-left:hover {
+	border-radius: 0 0 0 2em;
+}
+
+/*	Headlines */
+#main-headline, #let-the-good-times-roll {
+	text-align: center;
+	clear: right;
+	text-shadow: .2em .2em .2em #000, 
+               		3px 3px 5px blue; 
+}
+#main-headline {
+	font-size: 2.8em;
+	line-height: 1em;
+	margin: 0.5em 2em 0.5em 0;
+}
+#let-the-good-times-roll {
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0.5em 2em 0.5em 0;
+}
+
+/*	carousel */
+#carousel-example-generic {
+}
+.carouselImg {
+	margin: 0 auto;
+	max-height: 50vh;
+}
+#main-info {
+    background-color:rgba(0,0,0,0.5);
+    border: 1 solid #000;
+    border-radius: 1em;
+    padding: 0.5em;
+	margin: 0.5em;
+    color: #fff;
+    font-family: AveriaSerif-Regular;
+	line-height: 0.6em;
+}
+#links {
+}
+.external-link {
+    /*background: url('/gumbo/resources/images/texture-01.jpg') repeat fixed; */
+/*	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;*/
+    /*background-color: #000;*/
+    background-color:rgba(0,0,0,0.5);
+    color: #FFF;
+    font-size: 1.4em;
+}
+.external-link:hover {
+	/*text-shadow: .2em .2em .2em #000;*/
+	background: none;
+	color: #FFF;
+}
+
+/*	footer */
+#credit, #copyright {
+	padding-top: 1em;
+	letter-spacing: 0.05em;
+}
+#credit {
+	float: left;
+}
+#cory {
+	text-decoration: none;
+	font-size: 1.2em;
+}
+#copyright {
+	float: right;
+}
+
+/*	For smaller screens */
+@media all and (max-width: 990px) {
+  #logo {
+	    width: 41%;
+	    margin-left: 33%
+	}
+	.nav-bar {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#nav-bar-top .nav-btn {
+		width: 25%;
+	}
+	#nav-bar-btm .nav-btn {
+		width: 33.3%;
+	}
+}
