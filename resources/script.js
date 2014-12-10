@@ -23,23 +23,23 @@ $('.carousel').carousel({
 	$('#story-2').addClass('animated bounceInRight');
 
 // Menus
-	// $('#menu-cnt').addClass('animated flipInX');
+	$('#menu-cnt').addClass('animated zoomIn');
 
 // Testimonials
-	$('#testimonial-headline').addClass('animated flipInX');
+	$('#testimonial-headline').addClass('animated zoomIn');
 	$('#testimonials-cnt').addClass('animated fadeInUpBig');
 
 // Community
-	$('#community-headline').addClass('animated flipInX');
+	$('#community-headline').addClass('animated zoomIn');
 	$('.community-item').addClass('animated fadeInUpBig');
 
 // Jokes
-	$('#joke-headline').addClass('animated flipInX');
-	$('#joke-sub-headline').addClass('animated flipInY');
+	$('#joke-headline').addClass('animated bounceInRight');
+	$('#joke-sub-headline').addClass('animated bounceInLeft');
 	$('.joke-item').addClass('animated fadeInUpBig');
 
 // Club
-	$('#club-headline').addClass('animated flipInX');
+	$('#club-headline').addClass('animated zoomIn');
 	$('#form-cnt').addClass('animated fadeInUpBig');
 
 }); //End Document
