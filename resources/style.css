@@ -55,11 +55,11 @@ body {
 /*	For smaller screens */
 @media all and (max-width: 990px) {
   #logo {
-	    width: 41%;
-	    margin-left: 33%
+	    width: 41% !important;
+	    margin-left: 29%
 	}
 	.nav-bar {
-		width: 100%;
+		width: 100% !important;
 		float: none;
 		margin: 0 auto;
 		text-align: center;
@@ -111,7 +111,7 @@ body {
 	color: #660066;
 	text-shadow: none;
 	font-family: CulDeSac;
-	letter-spacing: 0.1em;
+	letter-spacing: -0.1em;
 }
 .top-left:hover {
 	border-radius: 2em 0 0 0;
@@ -150,6 +150,7 @@ h1, h2, h3 {
 .carouselImg {
 	margin: 0 auto;
 	max-height: 50vh;
+	min-height: 50vh;
 }
 
 /*	info and links */
@@ -195,7 +196,6 @@ h1, h2, h3 {
 /*	Our Story */
 #story-cnt {
 	clear: both;
-	/*background-color: #000;*/
 }
 #story-1, #story-2 {
 	font-size: 1.6em;
@@ -226,7 +226,7 @@ h1, h2, h3 {
 	font-size: 0.8em;
 }
 .source, .by {
-	line-height: 0.5em;
+	line-height: 0.8em;
 }
 .by {
 	margin-bottom: 1em;

@@ -23,7 +23,7 @@ $('.carousel').carousel({
 	$('#story-2').addClass('animated bounceInRight');
 
 // Menus
-	$('#menu-cnt').addClass('animated flipInX');
+	// $('#menu-cnt').addClass('animated flipInX');
 
 // Testimonials
 	$('#testimonial-headline').addClass('animated flipInX');
